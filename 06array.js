@@ -26,3 +26,9 @@ console.log(myArray);
 //slice() method returns a new array containing a portion of the array on which it is implemented
 const newArray = myArray.slice(0, 5);
 console.log(newArray);
+
+//removing first element of array by using shift();
+var ourArray = [["Vai",25],["Ani",25],["Uda",24]];
+var ourNewArray = ourArray.shift();
+console.log(ourNewArray);//prints removed array["Vai",25];
+console.log(ourArray);//prints remaining array ["Ani",25],["Uda",24];
